@@ -1,0 +1,46 @@
+{
+  "name": "@tschrock/kaitai-struct",
+  "version": "1.0.0",
+  "description": "Kaitai Struct: runtime library for TypeScript",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "/index.js",
+    "/index.d.ts",
+    "/KaitaiStream.js",
+    "/KaitaiStream.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tschrock/kaitai_struct_typescript_runtime.git"
+  },
+  "keywords": [
+    "binary",
+    "file",
+    "forenics",
+    "format",
+    "kaitai",
+    "parsing",
+    "reverse engineering",
+    "reversing",
+    "runtime",
+    "stream",
+    "struct",
+    "structure",
+    "typescript"
+  ],
+  "author": "Tyler Schrock <tschrock123@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tschrock/kaitai_struct_typescript_runtime/issues"
+  },
+  "homepage": "https://github.com/tschrock/kaitai_struct_typescript_runtime#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
